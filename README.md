@@ -1,6 +1,6 @@
 # 01 - C Fundamentals (The Start)
 
-This is my first program in this repo. I wrote it in **VS Code** on **Linux Mint** and set up my environment to run the code directly in the **terminal**.
+This is my first program in this repo. I wrote it in **VS Code** on **Linux** and set up my environment to run the code directly in the **terminal**.
 
 ### 🧠 My OS & Logic Notes:
 * **Headers:** I used `#include <stdio.h>` so the code can talk to the system's Standard Input/Output.
