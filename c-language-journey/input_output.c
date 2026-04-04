@@ -1,7 +1,3 @@
-// ==========================================
-// TOPIC: BASIC INPUT & OUTPUT (I/O)
-// ==========================================
-
 #include <stdio.h>
 
 int main() {
@@ -10,7 +6,6 @@ int main() {
     double num3;
     char name;
 
-    // --- Capturing User Input ---
     printf("Enter Integer Number: ");
     scanf("%d", &num);
 
@@ -18,13 +13,11 @@ int main() {
     scanf("%f", &num2);
 
     printf("Enter Double Number: ");
-    scanf("%lf", &num3); // %lf is used for double in scanf
+    scanf("%lf", &num3); 
 
     printf("Enter Character: ");
-    // Note: The space before %c skips any leftover newline characters in the buffer
     scanf(" %c", &name);
 
-    // --- Displaying Output ---
     printf("\n--- Results ---\n");
     printf("Integer: %d\n", num);
     printf("Float: %f\n", num2);
