@@ -29,7 +29,7 @@ In the `loops.c` file, we explore the three ways to repeat code:
 * **Do-While Loop:** The "guaranteed" loop. It runs at least once before checking the condition (Exit-Controlled).
 
 ### 2. Memory & Architecture
-In `variable.c`, we learn that C is "close to the hardware." Because an `int` might be 2 bytes on an old system but 4 bytes on a modern Linux machine, we use the `sizeof()` operator to write code that works everywhere.
+In variable.c, we explore how C interacts directly with the system's memory. Because the size of data types like an int can vary depending on the specific hardware architecture, we use the sizeof() operator. This allows the code to be portable, meaning it automatically detects and adapts to the memory constraints of any machine it is compiled on.
 
 ### 3. The Input Buffer Trick
 In `input_output.c`, notice the leading space in `scanf(" %c", &name)`. This is a vital trick to clear the "Enter" key (newline) left in the system buffer from previous inputs, preventing the program from skipping your character prompts.
