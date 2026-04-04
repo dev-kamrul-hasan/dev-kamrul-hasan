@@ -13,7 +13,7 @@ One specific challenge I solved was managing the **input buffer**:
 - I used `scanf("%c", &enterIsPressed);` to consume the "Enter" key character. 
 - This prevents the program from skipping inputs when it jumps back to the start after an error.
 
-## 🔧 Future Improvements (Version 1.1+)
+## 🔧 Future Improvements (Version 0.2)
 - [ ] Retype The Script with better structure and codes.
 - [ ] Add support for more advanced math.
 - [ ] Improve how the uUI looks and other different stuff.
