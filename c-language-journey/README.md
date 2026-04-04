@@ -43,5 +43,8 @@ While both control flow, `calculator_switch.c` shows why **Switch** is superior 
 * **Operating System:** Linux
 * **Compiler:** GCC (GNU Compiler Collection)
 
+* To Run The Code Just Use an Online Compiler To See The Output and edit them faster or you can do manually using vscode or any compiler you want to its up to you.
+
+### THANKS FOR READING, TAKE CARE.
 ---
 *Created for educational purposes. Feel free to clone and experiment!*
