@@ -16,6 +16,4 @@ My goal is to keep learning every single day until I start my Diploma in Compute
 
     OS: Linux 🐧
 
-    Language: Learning C 💻
-
-    Version Control: Git & GitHub 📂
+    Language: Learning C 💻 (Currently)
